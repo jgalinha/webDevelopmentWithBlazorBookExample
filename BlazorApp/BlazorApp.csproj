@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+    <ItemGroup>
+        <_ContentIncludedByDefault Remove="Shared\MainLayout.razor"/>
+        <_ContentIncludedByDefault Remove="Shared\NavMenu.razor"/>
+        <_ContentIncludedByDefault Remove="Shared\SurveyPrompt.razor"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Components\Components.csproj"/>
+        <ProjectReference Include="..\Data\Data.csproj"/>
+    </ItemGroup>
+
 </Project>
